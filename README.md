@@ -12,23 +12,16 @@ sudo bash -c "$(curl -fsSL https://ghfast.top/https://raw.githubusercontent.com/
 
 ```
 
-# 更新内容：
-```bash
-2025年12月13日
-切换稳定分支stable:	6.18.1
+# 内核版本：
+[点击查看](https://github.com/GengWei1997/kernel-deb/releases/tag/v6.18)
 
-2025年12月5日
-跟随主线更新到mainline:	6.18.0
-添加ufw缺失的ipv6模块
-```
-
-# 执行完后出现
+# 更新示例：执行完后出现
 ```bash
 11. 显示/boot目录内容
 总计 83932
 drwx------  5 root root     4096  1月  1  1970 .
 drwxr-xr-x 24 root root     4096 10月  6 13:16 ..
--rwx------  1 root root   245936 12月  5 00:03 config-6.18.0-sm8150-g54db96405339
+-rwx------  1 root root   245936 12月  5 00:03 config-6.18.y-sm8150-xxxxxxxxxxxxx
 drwx------  2 root root     4096 12月  3 15:50 dtbs
 drwx------  3 root root     4096 11月 22 21:35 efi
 -rwx------  1 root root 70902608 12月  5 11:31 initramfs
